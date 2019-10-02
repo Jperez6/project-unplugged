@@ -28,7 +28,9 @@
     <!-- Add your site or application content here -->
     <header>
       <div class="content-wrapper">
-        <a href="#"><img src="img/Logo.png" alt="unplugged logo"/></a>
+        <a href="#">
+          <img src="img/Logo.png" alt="unplugged logo" />
+        </a>
         <div class="header-divider"></div>
         <nav>
           <ul>
@@ -39,8 +41,8 @@
       </div>
     </header>
 
-    <!-- HERO SECTION -->
     <main>
+      <!-- HERO SECTION -->
       <section class="hero-area">
         <div class="content-wrapper">
           <h1>Retreat from the desk,<br />return refreshed.</h1>
@@ -51,21 +53,21 @@
         </div>
       </section>
 
-      <!-- NEWSLETTER / EMAIL SECTION -->
-      <section class="newsletter">
+      <!-- EMAIL FORM -->
+      <aside>
         <div class="content-wrapper">
-          <div class="headline">
+          <div class="form-description">
             <h3>Want to join the next retreat?</h3>
             <p>
               Find out when we are holding our next retreat and how your company
               or team can sign up!
             </p>
           </div>
-          <div class="newsletter-form">
+          <div class="form">
             <h3>Find out more</h3>
             <input
-              type="email"
-              name="email"
+              type="text"
+              name="name"
               id="email"
               required
               placeholder="name@email.com"
@@ -73,72 +75,92 @@
             <input type="button" value="Download Itinerary" />
           </div>
         </div>
-      </section>
+        <!-- aside content wrapper ends -->
+      </aside>
 
       <!-- GENERAL CONTENT WITH ICONS AND FEATURES -->
-      <section class="general-content">
+      <section class="features">
         <div class="content-wrapper">
           <h2>
             Have the work week you always dreamed of &mdash; without the bad
             wifi.
           </h2>
-          <div class="features">
-            <img class="icon" src="" alt="teepee icon" />
-            <p>
-              Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.
-            </p>
+          <div class="features-items">
+            <article>
+              <p class="fontawsome-icon"></p>
+              <p>
+                Located in a peaceful bungalow outside of Lake Geneva,
+                Wisconsin.
+              </p>
+            </article>
           </div>
-          <div class="features">
-            <img class="icon" src="" alt="bed icon" />
-            <p>
-              12 private rooms with ensuite bathrooms, 2 group meeting rooms,
-              and 4 breakout rooms.
-            </p>
+          <div class="features-items">
+            <article>
+              <p class="fontawsome-icon"></p>
+              <p>
+                12 private rooms with ensuite bathrooms, 2 group meeting rooms,
+                and 4 breakout rooms.
+              </p>
+            </article>
           </div>
-          <div class="features">
-            <img class="icon" src="" alt="utencils icon" />
-            <p>
-              Private chef team providing on demand meals - just like your team
-              kitchen.
-            </p>
+          <div class="features-items">
+            <article>
+              <p class="fontawsome-icon"></p>
+              <p>
+                Private chef team providing on demand meals - just like your
+                team kitchen.
+              </p>
+            </article>
           </div>
-          <div class="features">
-            <img class="icon" src="" alt="footprints icon" />
-            <p>
-              5 outdoor obstacle courses, including private beach 1/2 mile from
-              bungalow.
-            </p>
+          <div class="features-items">
+            <article>
+              <p class="fontawsome-icon"></p>
+              <p>
+                5 outdoor obstacle courses, including private beach 1/2 mile
+                from bungalow.
+              </p>
+            </article>
           </div>
-          <div class="features">
-            <img class="icon" src="" alt="smiley face icon" />
-            <p>
-              Retreat facilitator to manage your day to day activities so you
-              all get a chance to rest.
-            </p>
+          <div class="features-items">
+            <article>
+              <p class="fontawsome-icon"></p>
+              <p>
+                Retreat facilitator to manage your day to day activities so you
+                all get a chance to rest.
+              </p>
+            </article>
           </div>
-          <div class="features">
-            <img class="icon" src="" alt="wifi icon" />
-            <p>Dedicated computer room for times that you must wifi.</p>
+          <div class="features-items">
+            <article>
+              <p class="fontawsome-icon"></p>
+              <p>Dedicated computer room for times that you must wifi.</p>
+            </article>
           </div>
         </div>
       </section>
 
-      <!-- PREVIOUS RETREAT GROUP SECTION -->
-      <section class="previous-content">
+      <!-- REVIEW SECTION -->
+      <section class="reviews">
         <div class="content-wrapper">
           <h2>Be a better team in 5 days, like these.</h2>
           <img src="img/previous-retreat.pngd" alt="team photo" />
-          <h3>LaCrue Bottling Co. October 2017</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            facere iste nihil quod. Architecto odio eum dignissimos repellat
-            sequi omnis corporis voluptatum excepturi, minima dicta sunt
-            exercitationem quis voluptatem, veniam beatae! Iure, iste incidunt,
-            ducimus ex molestiae eius dolorum rerum veritatis non dicta vero
-            temporibus, enim repellendus pariatur laboriosam sunt.
-          </p>
+          <article>
+            <div>
+              <h3>LaCrue Bottling Co. October 2017</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia facere iste nihil quod. Architecto odio eum dignissimos
+                repellat sequi omnis corporis voluptatum excepturi, minima dicta
+                sunt exercitationem quis voluptatem, veniam beatae! Iure, iste
+                incidunt, ducimus ex molestiae eius dolorum rerum veritatis non
+                dicta vero temporibus, enim repellendus pariatur laboriosam
+                sunt.
+              </p>
+            </div>
+          </article>
         </div>
       </section>
+      <!-- END OF CONTENT -->
     </main>
 
     <!-- FOOTER AND COPY -->
@@ -146,22 +168,35 @@
       <div class="content-wrapper">
         <div class="footer-content">
           <address class="contact">
-            <h3>Contact</h3>
+            <h4>Contact</h4>
             <p>
               555-555-5555 <br />
               hello@unplugged.com
             </p>
           </address>
           <div class="social">
+            <h4>Social</h4>
             <div class="social-icons">
-              <p><a href="#" target="_blank"></a></p>
-              <p><a href="#" target="_blank"></a></p>
-              <p><a href="#" target="_blank"></a></p>
+              <p>
+                <a
+                  href="https://www.facebook.com/Skillcrush/"
+                  target="_blank"
+                ></a>
+              </p>
+              <p>
+                <a href="https://twitter.com/Skillcrush" target="_blank"></a>
+              </p>
+              <p>
+                <a
+                  href="https://www.instagram.com/skillcrush/"
+                  target="_blank"
+                ></a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="copy">
+      <div class="copyright">
         <p>&copy; Copyright 2019 | Unplugged</p>
       </div>
     </footer>
