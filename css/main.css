@@ -7,9 +7,9 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-/* ==========================================================================
+/* ======================================================
    Base styles: opinionated defaults
-   ========================================================================== */
+   =================================================== */
 
 html {
   color: #222;
@@ -83,9 +83,9 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
+/* ======================================================
    Browser Upgrade Prompt
-   ========================================================================== */
+   =================================================== */
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -94,11 +94,11 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* ==========================================================================
+/* ======================================================
    Author's custom styles
-   ========================================================================== */
+   =================================================== */
 
-/* ------------------- Base Header - Footer Styles ----------------------- */
+/* ----------- Base Header - Footer Styles ----------- */
 header,
 footer {
   display: flex;
@@ -106,7 +106,6 @@ footer {
   align-items: center;
   flex-flow: row wrap;
 }
-/* --------------------- Header ----------------------- */
 
 header .content-wrapper {
   display: flex;
@@ -124,8 +123,8 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  /* align-items: center; */
   list-style: none;
 }
 
@@ -140,22 +139,34 @@ header nav ul li a {
   text-decoration: none;
 }
 
-/* ------------------- Hero-Area ---------------------- */
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------ Mobile Styles - Homepage ------------- */
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-flow: row wrap;
 }
 
-/* --------------------- Aside ------------------------ */
+/* Aside */
 aside {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-flow: row wrap;
 }
-/* ------------------- Features ----------------------- */
+/* Features */
 .features {
   display: flex;
   justify-content: center;
@@ -169,7 +180,7 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-/* -------------------- Reviews ----------------------- */
+/* Reviews */
 .reviews {
   display: flex;
   justify-content: center;
@@ -177,7 +188,11 @@ aside {
   flex-flow: row wrap;
 }
 
-/* -------------------- Mission ----------------------- */
+/* =====================================================
+About Page
+ ==================================================== */
+
+/* Mission */
 .mission {
   display: flex;
   justify-content: center;
@@ -185,7 +200,7 @@ aside {
   flex-flow: row wrap;
 }
 
-/* -------------------- Contact ------------------------ */
+/* Contact */
 .contact-section {
   display: flex;
   justify-content: center;
@@ -193,7 +208,9 @@ aside {
   flex-flow: row wrap;
 }
 
-/* --------------------- FAQ -------------------------- */
+/* =====================================================
+FAQ Page
+===================================================== */
 .faq {
   display: flex;
   justify-content: center;
@@ -208,9 +225,9 @@ aside {
   flex-flow: row wrap;
 }
 
-/* ==========================================================================
+/* =====================================================
    Helper classes
-   ========================================================================== */
+   ================================================== */
 
 /*
  * Hide visually and from screen readers
@@ -308,11 +325,11 @@ aside {
   /* Style adjustments for high resolution devices */
 }
 
-/* ==========================================================================
+/* =====================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+   ================================================== */
 
 @media print {
   *,
