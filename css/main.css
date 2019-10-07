@@ -17,6 +17,11 @@ html {
   line-height: 1.4;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -98,7 +103,22 @@ textarea {
    Author's custom styles
    =================================================== */
 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 /* ----------- Base Header - Footer Styles ----------- */
+html {
+  /* width: 360px; */
+  /* margin: 0 auto;
+  padding: 20px; */
+}
+
+header {
+  padding: 15px 0;
+}
+
 header,
 footer {
   display: flex;
@@ -112,6 +132,13 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+header .header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -119,6 +146,7 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
@@ -126,6 +154,7 @@ header nav ul {
   justify-content: space-around;
   /* align-items: center; */
   list-style: none;
+  width: 100%;
 }
 
 header nav ul li {
@@ -137,6 +166,11 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -159,7 +193,16 @@ footer .social-icons p {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+}
+
 /* Aside */
+.form-description {
+}
+
+.form h3 {
+}
+
 aside {
   display: flex;
   justify-content: center;
@@ -180,12 +223,20 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+
+.features article {
+  width: 55%;
+}
 /* Reviews */
 .reviews {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 55%;
 }
 
 /* =====================================================
