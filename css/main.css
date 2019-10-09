@@ -171,18 +171,28 @@ header nav ul li a {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  text-align: center;
+}
+
+footer address p {
+  padding: 25px 0 50px 0;
 }
 
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 20px 0 50px 0;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .copyright p {
+  padding-bottom: 5px;
 }
 
 /* ------------ Mobile Styles - Homepage ------------- */
@@ -197,18 +207,22 @@ footer .social-icons p {
 }
 
 /* Aside */
-.form-description {
-}
-
-.form h3 {
-}
-
 aside {
   display: flex;
   justify-content: center;
   /* align-items: center; */
   flex-flow: row wrap;
 }
+
+aside .form-description p {
+  padding: 10px 0 36px 0;
+}
+
+aside input {
+  width: 100%;
+  margin: 10px 0;
+}
+
 /* Features */
 .features {
   display: flex;
@@ -222,11 +236,17 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 60px 0;
 }
 
 .features article {
   width: 55%;
 }
+
+.features article .fontawsome-icon {
+  margin-bottom: 40px;
+}
+
 /* Reviews */
 .reviews {
   display: flex;
@@ -235,8 +255,13 @@ aside {
   flex-flow: row wrap;
 }
 
+.reviews .content-wrapper h2 {
+  margin: 0px 0 25px 0;
+}
+
 .reviews h3 {
   width: 55%;
+  padding: 25px 0;
 }
 
 /* =====================================================
