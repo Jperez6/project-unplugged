@@ -109,11 +109,6 @@ textarea {
 }
 
 /* ----------- Base Header - Footer Styles ----------- */
-html {
-  /* width: 360px; */
-  /* margin: 0 auto;
-  padding: 20px; */
-}
 
 header {
   padding: 15px 0;
@@ -334,6 +329,22 @@ FAQ Page
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.faq .content-wrapper h2 {
+  margin-bottom: 45px;
+}
+
+.faq .content-wrapper .faq-content .faq-items {
+  margin-bottom: 45px;
+}
+
+.faq .content-wrapper .faq-content .faq-items:last-child {
+  margin-bottom: 0px;
+}
+
+.faq .content-wrapper .faq-content .faq-items h4 {
+  margin-bottom: 10px;
 }
 
 /* =====================================================
