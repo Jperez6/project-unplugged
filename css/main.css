@@ -104,7 +104,7 @@ textarea {
    =================================================== */
 
 .content-wrapper {
-  width: 90%;
+  width: 89%;
   margin: 50px 0;
 }
 
@@ -286,12 +286,32 @@ About Page
   flex-flow: row wrap;
 }
 
+main .mission h1 {
+  margin: 0 0 20px 0;
+}
+
+main .mission p {
+  margin-bottom: 20px;
+}
+
 /* Contact */
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.contact-section .content-wrapper h2 {
+  margin-bottom: 10px;
+}
+
+.contact-section .content-wrapper .contact-content h4 {
+  margin-bottom: 15px;
+}
+
+.contact-section .content-wrapper .contact-content .general-info {
+  margin-bottom: 15px;
 }
 
 /* =====================================================
