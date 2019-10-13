@@ -257,6 +257,10 @@ aside .email {
   margin-bottom: 40px;
 }
 
+.features p {
+  margin: 0;
+}
+
 /* Reviews */
 .reviews {
   display: flex;
