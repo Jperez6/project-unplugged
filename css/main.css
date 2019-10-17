@@ -545,48 +545,48 @@ FAQ Page
     width: 100%;
     text-align: center;
   }
-}
 
-/*  ============================================================== 
+  /*  ============================================================== 
 ABOUT PAGE 
 ================================================================== */
-.mission-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.mission-content p {
-  width: 45%;
-}
+  .mission-content p {
+    width: 45%;
+  }
 
-.contact-section .content-wrapper h2 {
-  width: 80%;
-}
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
 
-.contact-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
-/*  ============================================================== 
+  /*  ============================================================== 
 FAQ PAGE 
 ================================================================== */
-.faq .content-wrapper {
-  justify-content: space-between;
-}
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
 
-.faq-content {
-  flex-basis: 40%;
-}
+  .faq-content {
+    flex-basis: 40%;
+  }
 
-.faq h2 {
-  width: 100%;
-}
+  .faq h2 {
+    width: 100%;
+  }
 
-@media only screen and (min-width: 1200px) {
-  /* Desktop Styles Here */
+  @media only screen and (min-width: 1200px) {
+    /* Desktop Styles Here */
+  }
 }
 
 /* =====================================================
