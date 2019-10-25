@@ -103,6 +103,61 @@ textarea {
    Author's custom styles
    =================================================== */
 
+/* General Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.75em;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25em;
+}
+
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.125em;
+}
+
+img {
+}
+
+figure {
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -596,7 +651,7 @@ DESKTOP QUERY
 
   /* Hero */
   .hero-area h1 {
-    width: 70%;
+    width: 75%;
     /* width 60% on skillcrush solution */
   }
 
@@ -607,7 +662,15 @@ DESKTOP QUERY
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 35%;
+  }
+
+  aside .content-wrapper .form-description p {
+    width: 85%;
+  }
+
+  aside .content-wrapper input {
+    width: 100%;
   }
 
   /* Features */
@@ -625,22 +688,25 @@ DESKTOP QUERY
     width: 42%;
   }
 
+  .reviews h3 {
+    width: 100%;
+  }
+
   /* ==========================================================================
    About Page
    ========================================================================== */
   .mission h2,
   .contact-section .content-wrapper h2 {
-    width: 100%;
+    width: 90%;
+    font-size: 3em;
   }
 
   .contact-section .content-wrapper h2 {
+    width: 100%;
     margin-bottom: 30px;
   }
 
-  /* .contact-content {
-    width: 90%;
-  }
-
+  /*
   .contact-section address .general-info,
   .contact-section address .facilitator-info {
     width: 40%;
