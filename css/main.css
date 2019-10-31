@@ -263,7 +263,7 @@ footer .copyright {
 
 /* ------------ Mobile Styles - Homepage ------------- */
 .hero-area {
-  background: url("../img/jake-melara-30679-unsplash.png");
+  background: url(/img/unplugged-retreat.jpg);
   background-size: cover;
   background-position: center;
   min-height: 500px;
