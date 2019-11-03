@@ -383,6 +383,11 @@ input[type="button"] {
   text-align: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /* Reviews */
 .reviews {
   background: #2a423a;
@@ -693,6 +698,11 @@ FAQ Page
 
   .features .features-item-description {
     width: 63%;
+  }
+
+  .features i {
+    font-size: 4.5em;
+    margin-bottom: 25px;
   }
 
   /* Reviews */
