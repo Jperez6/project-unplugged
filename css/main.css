@@ -758,6 +758,13 @@ ABOUT PAGE
     margin-bottom: 0;
   }
 
+  /*  ============================================================== 
+ABOUT PAGE 
+================================================================== */
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -904,13 +911,21 @@ DESKTOP QUERY
     font-size: 3em;
   }
 
-  .contact-section .content-wrapper h2 {
-    width: 100%;
-    margin-bottom: 30px;
+  /*  
+    Map Section 
+ */
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
-  .contact-section .general-info {
+  .contact-section .content-wrapper h2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-section .content-wrapper .contact-content .general-info {
     width: 52%;
+    margin-bottom: 0;
   }
   .contact-section .facilitator-info {
     width: 48%;
