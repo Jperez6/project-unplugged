@@ -233,8 +233,8 @@ footer p {
 }
 
 footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
+  width: 65%;
+  margin: 50px 0 30px 0;
 }
 
 footer .contact {
@@ -245,6 +245,10 @@ footer .contact h4 {
   margin-bottom: 15px;
 }
 
+footer .social h4 {
+  margin-bottom: 20px;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -252,9 +256,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer i {
+  font-size: 1.125em;
 }
 
 footer .copyright {
@@ -263,7 +275,7 @@ footer .copyright {
 
 /* ------------ Mobile Styles - Homepage ------------- */
 .hero-area {
-  background: url(/img/unplugged-retreat.jpg); /* not showing in github */
+  background: url(../img/unplugged-retreat.jpg); /* not showing in github */
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -286,7 +298,7 @@ aside {
 }
 
 aside .content-wrapper {
-  margin: 25px 0;
+  margin: 25px 0 50px 0;
 }
 
 aside .form-description {
@@ -295,6 +307,10 @@ aside .form-description {
 
 aside .form-description h3 {
   margin-bottom: 10px;
+}
+
+aside p {
+  width: 95%;
 }
 
 aside .form h3 {
@@ -404,7 +420,11 @@ input[type="button"] {
 
 .reviews h3 {
   width: 55%;
-  margin: 25px 0;
+  margin: 20px 0;
+}
+
+.reviews img {
+  background: #1a2c2a;
 }
 
 /* =====================================================
@@ -642,6 +662,10 @@ FAQ Page
     justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header nav {
     width: 20%;
   }
@@ -716,12 +740,18 @@ FAQ Page
     justify-content: space-between;
   }
 
+  .reviews figure {
+    width: 310px;
+    margin-top: 10px;
+  }
+
   .reviews article div {
-    width: 45%;
+    width: 49%;
   }
 
   .reviews h3 {
     width: 100%;
+    margin: 0 0 5px 0;
   }
 
   /* faq */
@@ -745,6 +775,19 @@ FAQ Page
   footer .copyright {
     width: 100%;
     text-align: center;
+  }
+
+  footer .contact h4,
+  footer .social h4 {
+    margin-bottom: 30px;
+  }
+
+  footer .social {
+    width: 207px;
+  }
+
+  footer .social-icons {
+    justify-content: space-between;
   }
 
   /*  ============================================================== 
@@ -891,7 +934,7 @@ DESKTOP QUERY
   /* Reviews */
 
   .reviews figure {
-    width: 45%;
+    width: 48%;
   }
 
   .reviews article div {
